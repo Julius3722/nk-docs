@@ -1,0 +1,13 @@
+site_name: My Docs
+theme:
+  features:
+    - navigation.tracking
+    - navigation.expand
+    - content.code.copy
+    - content.tabs.link
+    - content.code.annotation
+  palette:
+    scheme: slate
+    primary: amber
+    accent: amber
+  name: material

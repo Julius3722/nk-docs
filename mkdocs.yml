@@ -1,4 +1,9 @@
-site_name: My Docs
+site_name: NK Docs
+
+
+nav:
+  - Home: index.md
+
 theme:
   features:
     - navigation.tracking
@@ -11,3 +16,23 @@ theme:
     primary: amber
     accent: amber
   name: material
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - toc:
+      title: Table of contents
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
